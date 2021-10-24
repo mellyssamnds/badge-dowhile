@@ -9,6 +9,12 @@
   <a href="#licença">Licença</a>
 </p>
 
+<p align="center">
+  <img alt="Preview" src="https://github.com/mellyssaStephanny/badge-dowhile/blob/main/images/imagem.PNG" width="100%">
+</p>
+
+## Projeto
+
 ## Projeto
 
 Durante a semana 18 a 24/10, aconteceu a NLW Heat da [Rocketseat](https://www.rocketseat.com.br/), onde desenvolvemos na trilha Origin a versão mobile do crachá para o DoWhile 2021 que ocorrerá nos dias 01 e 02 de dezembro.

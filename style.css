@@ -6,22 +6,49 @@ html,
 body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 39%, 84%);
+  --widthBadge: 22.375rem;
+  --heightBadge: 33.75rem;
 
   height: 100%;
   font-family: 'Sarabun', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
+/* não mexer aqui */
 body {
   display: grid;
-  place-items: center;
+  place-items: normal center;
+  background-image: url(images/background-dowhile.webp);
+  background-size: cover;
+}
+
+#faixa {
+  position: relative;
+  z-index: 60;
+}
+
+.glassEffect {
+  width: 375px;
+  height: 712px;
+  position: absolute;
+  top: 128px;
+  border-radius: 1rem;
+  background-color: rgba(126, 126, 126, 0.212);
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.411);
+  z-index: 0;
 }
 
 main {
-  background: url(images/background.svg) no-repeat center/cover;
-  width: 100vh;
-  min-height: 812px;
-  height: 100vh;
+  background: url(images/background.svg);
+  width: 375px;
+  height: 712px;
+  border-radius: 1rem;
+  opacity: 1;
+  z-index: 5;
+  position: absolute;
+  top: 128px;
 }
 
 .container {
@@ -29,10 +56,10 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
   color: var(--grey);
 }
 
+/* nao mexer aqio*/
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
@@ -45,6 +72,7 @@ main {
   z-index: 1;
 }
 
+/* não mexer*/
 .avatar > img {
   width: 10rem;
   height: 11.5rem;
@@ -52,6 +80,7 @@ main {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+/* não mexer*/
 h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -61,10 +90,22 @@ a {
   color: var(--grey);
   text-decoration: none;
   margin-top: 0.25rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
   margin-top: 5rem;
+}
+
+.build {
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #ff008e, #ffcd1e);
 }
 
 ul {
@@ -74,4 +115,9 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+li img {
+  border-radius: 0.6rem;
+  opacity: 0.6;
 }

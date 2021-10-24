@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sarabun:wght@200&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -22,13 +22,14 @@
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
           <img
-            src="https://lorempixel.com/185/185/people/"
+            src="https://avatars.githubusercontent.com/u/31068578?v=4"
             alt="Foto Pessoal"
+            id="userimage"
           />
         </div>
 
         <h1 id="username">Mellyssa Stephanny</h1>
-        <p>Developer in developement</p>
+        <p id="userbio">Backend developer in developement</p>
 
         <ul id="socialLinks">
           <li class="linkedin">
@@ -49,31 +50,6 @@
         </ul>
       </div>
     </main>
-    <script>
-      function showMeSomething() {
-        alert(links.github)
-      }
-
-      const SocialMediaLinks = {
-        linkedin: 'mellyssas',
-        github: 'mellyssastephanny',
-        twitter: 'mlyssa_'
-      }
-
-      function changeSocialMediaLinks() {
-        //document.getElementById('username').textContent = 'Lyssa'
-        //username.textContent = 'Mendes'
-
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-
-          li.children[0].href = `https://${social}.com/${SocialMediaLinks[social]}`
-
-          alert(li.children[0].href)
-        }
-      }
-
-      changeSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -5,10 +5,10 @@
 html,
 body {
   --black: hsl(240, 6%, 13%);
-  --grey: hsl(240, 9%, 89%);
+  --grey: hsl(240, 39%, 84%);
 
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sarabun', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 

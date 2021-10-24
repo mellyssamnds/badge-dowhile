@@ -14,7 +14,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* não mexer aqui */
 body {
   display: grid;
   place-items: normal center;
@@ -59,7 +58,6 @@ main {
   color: var(--grey);
 }
 
-/* nao mexer aqio*/
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
@@ -72,7 +70,6 @@ main {
   z-index: 1;
 }
 
-/* não mexer*/
 .avatar > img {
   width: 10rem;
   height: 11.5rem;
@@ -80,7 +77,6 @@ main {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-/* não mexer*/
 h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;

@@ -25,9 +25,15 @@ O projeto consiste em um crachá virtual que mostra as informações do usuário
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+Bibliotecas
+
+- [Google Fonts](https://www.fonts.google.com/)
+- [GitHub API](https://docs.github.com/pt/github/extending-github/getting-started-with-the-api)
+- [Ícones Redes Sociais](https://icons8.com.br/icon/set/social-media/ios)
 
 ## Protótipo
 

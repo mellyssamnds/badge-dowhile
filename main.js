@@ -3,7 +3,7 @@ function showMeSomething() {
 }
 
 const SocialMediaLinks = {
-  linkedin: 'in/mellyssas',
+  linkedin: 'in/mellyssa-stephanny',
   github: 'mellyssastephanny',
   twitter: 'mllyssa_'
 }

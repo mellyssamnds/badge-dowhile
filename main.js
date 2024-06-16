@@ -4,8 +4,7 @@ function showMeSomething() {
 
 const SocialMediaLinks = {
   linkedin: 'in/mellyssa-stephanny',
-  github: 'mellyssastephanny',
-  twitter: 'mllyssa_'
+  github: 'mellyssamnds'
 }
 
 function changeSocialMediaLinks() {
